@@ -54,12 +54,12 @@ namespace Email.Test
                 Assert.True(OutboxPage.IsEmailExist(email));
 
                 LoginPage.LogOut();
-                _logger.Information("Outbox test {@result}", TestResult.GetPassedTestResult(email));
+                _logger.Information("Outbox {@result}", TestResult.GetPassedTestResult(email));
             }
             catch (Exception e)
             {
                 Driver.TakeScreenshot(nameof(AccountTest));
-                _logger.Information("Outbox test {@result}", TestResult.GetFailedTestResult(email, e.Message));
+                _logger.Information("Outbox {@result}", TestResult.GetFailedTestResult(email, e.Message));
                 throw;
             }
         }
@@ -85,13 +85,13 @@ namespace Email.Test
                     Assert.True(InboxPage.IsEmailExist(email));
 
                     LoginPage.LogOut();
-                    _logger.Information("Inbox test {@result}", TestResult.GetPassedTestResult(email));
+                    _logger.Information("Inbox {@result}", TestResult.GetPassedTestResult(email));
                 }
             }
             catch (Exception e)
             {
                 Driver.TakeScreenshot(nameof(AccountTest));
-                _logger.Information("Inbox test {@result}", TestResult.GetFailedTestResult(email, e.Message));
+                _logger.Information("Inbox {@result}", TestResult.GetFailedTestResult(email, e.Message));
                 throw;
             }
         }
