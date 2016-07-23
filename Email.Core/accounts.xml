@@ -1,0 +1,30 @@
+<accounts>
+  <account>
+    <email>test_1212@tut.by</email>
+    <password>testPassword_1212</password>
+  </account>
+  <account>
+    <email>test_1313@tut.by</email>
+    <password>testPassword_1313</password>
+  </account>
+  <account>
+    <email>test_2323@tut.by</email>
+    <password>testPassword_2323</password>
+  </account>
+  <account>
+    <email>test_1515@tut.by</email>
+    <password>testPassword_1515</password>
+  </account>
+  <account>
+    <email>test_1616@tut.by</email>
+    <password>testPassword_1616</password>
+  </account>s
+  <account>
+    <email>test_1818@tut.by</email>
+    <password>testPassword_1818</password>
+  </account>
+  <account>
+    <email>test_1919@tut.by</email>
+    <password>testPassword_1919</password>
+  </account>
+</accounts>
